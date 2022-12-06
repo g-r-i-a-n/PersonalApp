@@ -9,5 +9,34 @@
     xmlns:local="clr-namespace:Schedule"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
-    <Grid />
+    <StackPanel
+    >
+        
+        <Grid Background="White" Margin="0,0,0,0">
+
+
+            <TextBlock
+                FontSize="18"
+                FontWeight="Bold"
+                Foreground="DarkBlue"
+                HorizontalAlignment="Center"
+                Margin="5,100,5,40">
+                Meeting Schedule
+            </TextBlock>
+            <TextBlock
+                FontSize="40"
+                FontStyle="Italic"
+                FontWeight="ExtraBold"
+                Foreground="DarkSlateGray"
+                HorizontalAlignment="Center"
+                Margin="0,35,0,0">
+                Owner Login
+            </TextBlock>
+
+        </Grid>
+    </StackPanel>
+        
+        
+    
+    
 </Window>
