@@ -34,6 +34,64 @@
             </TextBlock>
 
         </Grid>
+
+
+        <!--  username  -->
+        <TextBlock
+            FontSize="18"
+            FontStyle="Italic"
+            FontWeight="Bold"
+            Foreground="White"
+            HorizontalAlignment="Center"
+            Margin="5,50,5,5">
+            Username
+        </TextBlock>
+        <TextBox
+            Background="Transparent"
+            Cursor="Hand"
+            FontSize="12"
+            FontStretch="Normal"
+            FontStyle="Oblique"
+            FontWeight="Bold"
+            Foreground="Black"
+            Height="30"
+            Margin="100,0,100,0" />
+
+        <!--  password  -->
+
+        <TextBlock
+            FontSize="18"
+            FontStyle="Italic"
+            FontWeight="Bold"
+            Foreground="White"
+            HorizontalAlignment="Center"
+            Margin="0,20,0,5">
+            Password
+        </TextBlock>
+
+        <PasswordBox
+            Background="Transparent"
+            Cursor="Hand"
+            FontSize="12"
+            FontStretch="Medium"
+            FontStyle="Oblique"
+            FontWeight="Bold"
+            Height="30"
+            Margin="100,0,100,50" />
+
+        <Button
+            Background="White"
+            Cursor="Hand"
+            FontSize="18"
+            FontStyle="Italic"
+            FontWeight="Bold"
+            Foreground="DarkSlateGray"
+            Height="35"
+            Margin="120,-15,120,0">
+            Login
+        </Button>
+
+
     </StackPanel>
 
 
