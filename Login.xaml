@@ -1,7 +1,8 @@
 ﻿<Window
-    Height="450"
-    Title="Login"
-    Width="800"
+    MaxHeight="5500"
+    MaxWidth="350"
+    MinHeight="500"
+    MinWidth="350"
     mc:Ignorable="d"
     x:Class="Schedule.Login"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
@@ -9,9 +10,8 @@
     xmlns:local="clr-namespace:Schedule"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
-    <StackPanel
-    >
-        
+    <StackPanel Background="DarkSlateGray">
+
         <Grid Background="White" Margin="0,0,0,0">
 
 
@@ -35,8 +35,8 @@
 
         </Grid>
     </StackPanel>
-        
-        
-    
-    
+
+
+
+
 </Window>
